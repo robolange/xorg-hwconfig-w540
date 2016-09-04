@@ -1,0 +1,13 @@
+Source: xorg-hwconfig-w540
+Section: x11
+Priority: optional
+Maintainer: Robert Lange <rlange@corusa.net>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+
+Package: xorg-hwconfig-w540
+Architecture: all
+Depends: xserver-xorg, xserver-xorg-input-synaptics (>= 1.8.0)
+Description: X.Org Hardware Configuration for Lenovo ThinkPad w540
+ This package provides X.Org configuration files for input and output
+ devices for the Lenovo ThinkPad w540.
